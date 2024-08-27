@@ -1,0 +1,119 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f2ef;
+}        
+
+.alert{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+}
+
+/* .alert-success {
+    background-color: lightgreen;
+    color: green;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.alert-warning {
+    background-color: yellow;
+    color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.alert-error {
+    background-color: lightcoral;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 10px;
+} */
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    vertical-align: bottom;
+}
+
+.input-wrapper label:nth-child(1) {
+    display: block;
+}
+
+.input-wrapper .input-box{
+    border: 1px solid orange;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.main {
+    flex: 1;
+}
+
+.add-task{
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+    form{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    
+        input{
+            flex: 1;
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            background-color: white;
+        }
+    
+        button{
+            background-color: rgb(255, 162, 162);
+            width: 100px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 700;
+            box-shadow : 0 2px 5px -3px grey;
+        }.all-task{
+            background-color: rgb(98 168 194);
+        }
+    }
+}
+
+.table-wrapper{
+    min-width: 700px;
+    width: fit-content;
+    /* border: 1px solid rgb(255, 162, 162); */
+    background-color: white;
+    box-shadow : 0 2px 5px -3px grey;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 1px 9px;
+    
+    table{
+        background-color: rgb(255, 223, 223);
+        border: 1px solid rgb(255, 162, 162);
+
+        tr th{
+            background-color: rgb(255, 162, 162);
+        }
+    }
+}
